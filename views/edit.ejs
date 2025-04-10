@@ -1,4 +1,5 @@
-<% include ./partials/header.ejs %>
+<%- include('partials/header') %>
+
 
 <form hidden id="fileform" method="post" enctype="multipart/form-data" action="/upload">
   <input id="file" type="file" name="image">
@@ -38,4 +39,4 @@
       document.querySelector("#fileform").submit();
     });
   </script>
-<% include ./partials/footer.ejs %>
+<%- include('partials/footer') %>
