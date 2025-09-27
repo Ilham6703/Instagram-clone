@@ -25,5 +25,9 @@
   "main": "app.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+
+"scripts": {
+  "start": "node app.js"
+}
 }

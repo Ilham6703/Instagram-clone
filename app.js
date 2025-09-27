@@ -12,13 +12,22 @@ const passport = require('passport');
 var app = express();
 
 
+const express = require("express");
+const app = express();
 
+// your middleware, routes etc...
 
-
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
+
+
+// If you want to run on a specific port, uncomment the lines below and comment out the above lines
+// const PORT = 3000;
+// app.listen(PORT, () => {
+//   console.log(`Server running on http://localhost:${PORT}`);
+// });
 
 
 
