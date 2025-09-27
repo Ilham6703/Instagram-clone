@@ -2,8 +2,13 @@
   "name": "insta",
   "version": "0.0.0",
   "private": true,
+  "description": "HQ instagram clone",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -20,14 +25,5 @@
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0",
     "uuid": "^10.0.0"
-  },
-  "description": "HQ instagram clone",
-  "main": "app.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-
-"scripts": {
-  "start": "node app.js"
-}
+  }
 }
